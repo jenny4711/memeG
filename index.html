@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"    href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet"> 
+<title>Document</title>
+</head>
+
+<body>
+  
+  <h1> MEME</h1>
+  <section class="form">
+  
+  
+<!-- img -->
+<form action="img" class="meme" >
+<label class="url"> URL</label>
+<input type="url" name="url" class="img" > <br/>
+<!-- Top text -->
+<label class="Ttext">Upper Text</label>
+<input type="text" name="top-text" class="topT" ><br/>
+
+<!-- bottom text -->
+<label class="Btext">Bottom Text</label>
+<input type ="text" name="bottom-text" class="btmT" ><br/>
+<!-- sumit btn -->
+<input type="button" name="meme" class="memeBtn" value="Sumit">
+</form>
+
+
+<br>
+<br>
+<br>
+</section>
+<!-- tools -->
+<section class ='tool'>
+
+  <section class="textCl">Text Color
+  <button data-hex="#d90429" class="color r">Red</button>
+  <button data-hex="#0077b6" class="color b">Blue</button>
+  <button data-hex="#ffd60a" class="color y">Yellow</button>
+  <button data-hex="" class="color n">None</button>
+</section>
+
+<section class="backgroundCl">Background Color
+    <button data-hex="#252422" class="color blk">Black</button>
+    <button data-hex="#ffffff" class="color w">White</button>
+    <button data-hex="" class="color n">None</button>
+</section>
+<p>Remove  : Click the Image</p>
+</section>
+
+
+<!-- output -->
+<ul class="big-Div"></ul>
+
+<script src="app.js"></script>
+</body>
+
+</html>

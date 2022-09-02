@@ -1,0 +1,178 @@
+body{
+background-color: #c1fba4;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 100px;
+  color:#7bf1a8;
+  font-family: 'Fredoka One', cursive;
+  font-size:80px;
+  text-shadow: 20px 20px 20px gray;
+  
+}
+
+.big-Div{
+  position:relative;
+display:flex;
+flex-wrap:wrap ;
+justify-content: left;
+align-items: center;
+
+
+}
+
+.makeDiv{
+display: grid;
+grid-template-columns: repeat(4.1fr);
+grid-auto-rows:minmax(50px,auto);
+
+
+}
+
+img{
+position:relative;
+
+text-align:center;
+/* margin-bottom: 5px; */
+
+}
+
+.top{
+position:absolute;
+margin-top:0em;
+font-size: 1.5em;
+font-family: 'Passion One', cursive;
+}
+
+
+
+.bottom{
+position:absolute;
+bottom: 0em;
+font-size: 1.5em;
+font-family: 'Passion One', cursive;
+
+}
+
+.url,
+.Ttext,
+.Btext{
+  font-size:30px;
+  font-family: 'Fredoka One', cursive;
+  font-weight: bold;
+  margin:10px;
+  color: #c1fba4;
+  text-shadow: 5px 5px 5px gray;
+
+}
+
+.url{
+  margin-right:110px ;
+}
+.Btext{
+  margin-right:-3px;
+}
+
+
+.img,
+.topT,
+.btmT{
+  width:50em;
+  height:2em;
+  background-color:  #c1fba4;
+  margin:1em;
+  box-shadow: 3px 3px gray;
+}
+
+.memeBtn{
+  background-color:   #c1fba4;
+  color:black;
+  font-size: 25px;
+  margin-top: 15px;
+  width:100px;
+  height: 50px;;
+}
+
+
+
+.form,.tool{
+  background-color: #7bf1a8;
+  width: 50em;
+  height: 25em;
+  margin-bottom:30em;
+  margin-left:15em;
+  text-align: center;
+  margin-bottom: 2em;
+  padding:2em;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 200px;
+  border-top-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  box-shadow: 50px 50px 50px gray;
+}
+
+/* * tools */ 
+.tool{
+  background-color:#7bf1a8;
+ 
+  margin-left: 80em;
+  margin-top: -30em;
+  
+}
+.color{
+  font-size: 25px;
+  width:100px;
+  height: 50px;
+  text-shadow: 5px 5px 5px gray;
+  border-radius: 40%;
+
+}
+.textCl,.backgroundCl,p{
+  margin-top:1em;
+  font-size:2em;
+  font-family: 'Fredoka One', cursive;
+  color: #c1fba4;
+  text-shadow: 5px 5px 5px gray;
+}
+
+p{
+  margin-top:2em;
+  margin-right:9em;
+}
+
+/*  Tool button color */
+.r{
+  background-color: #d90429;
+  color:white;
+  margin:0.7em;
+}
+.b{
+  background-color:#0077b6;
+  color:white;
+  margin:0.7em;
+
+}
+.y{
+  background-color: #ffd60a;
+  color:white;
+  margin:0.7em;
+  
+}
+.blk{
+  background-color: #252422;
+  color:white;
+  margin:0.7em;
+}
+.w{
+  background-color: #ffffff;
+  margin:0.7em;
+}
+
+
+
+  
+
+
+
+
